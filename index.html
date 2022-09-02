@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Worträtsel</title>
+
+        <link href="./dist/main.css" type="text/css" rel="stylesheet">
+    </head>
+    <body class="transBackground">
+        <div class="popup">
+            <button id="close">&times;</button>
+            <h1>Info</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio animi suscipit molestias, 
+                neque vero reiciendis mollitia itaque enim id ratione quo hic 
+                incidunt explicabo accusamus, corrupti aliquid facere. Suscipit, iste.
+            </p><br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio animi suscipit molestias, 
+                neque vero reiciendis mollitia itaque enim id ratione quo hic 
+                incidunt explicabo accusamus, corrupti aliquid facere. Suscipit, iste.
+            </p><br>
+            <h3>Beispiel:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio animi suscipit molestias, 
+                neque vero reiciendis mollitia itaque enim id ratione quo hic 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio animi suscipit molestias, 
+                neque vero reiciendis mollitia itaque enim id ratione quo hic 
+            </p><br>
+            <h3>Spieleinstellungen</h3>
+            <p>Wählen sie die Schwierigkeit?</p>
+            <div class="difficulty-checkbox" >
+                <!-- checkbox -->
+                <span id="eins">Leicht</span><input type="checkbox" class="easy-checkbox" name="difficulty" value="easy" checked="true">
+                <span id="zwei">Mittel</span><input type="checkbox" class="medium-checkbox" name="difficulty" value="medium">
+                <span id="drei">Schwer</span><input type="checkbox" class="hard-checkbox" name="difficulty" value="hard">
+            </div>
+            <p>Welche Sprachen sollen die gesuchten Wörter haben ?</p>
+            <div class="language-checkbox">
+                Deutsch<input type="checkbox" class="de" name="difficulty" value="easy" checked="true">
+                Englisch<input type="checkbox" class="en" name="difficulty" value="medium">
+            </div>
+            <div class="button-container"><button class="start-btn">Worträtsel starten</button></div>
+        </div>
+        <div class="container">
+            <h2>Worträtsel</h2>
+            <hr>
+            <div class="content">
+                <p class="word">Adler</p>
+                <div class="details">
+                    <p class="hint">Hinweis: <span>Der Prozess der Zunahme oder des Wachstums</span></p>
+                    <p class="time">Verbleibende Zeit: <span><b>60</b>s</span></p>
+                </div>
+                <input class="input-text" type="text" placeholder="Enter a valid word">
+                <div class="buttons">
+                    <button class="refresh-word">Neues Wort</button>
+                    <button class="check-word">Wort prüfen</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="popup.js" defer></script>
+    <script src="word.js" defer></script>
+    <script src="main.js" defer></script>
+</html>

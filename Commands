@@ -1,0 +1,7 @@
+### Commands ####
+
+Automatisch 
+sass styles/main.scss dist/main.css --watch
+
+Nicht automatisch
+sass styles/main.scss dist/main.css 
