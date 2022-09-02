@@ -38,6 +38,11 @@ const initGame = () => {
     correctWord = randomObj.word.toLocaleLowerCase(); // passing random word to correct Word
     inputField.value = "";
     inputField.setAttribute("maxlength", correctWord.length); // setting input maxlenght attr value to word length
+    if (hard.checked == true) {
+        initTimer(30);
+    } else {
+        initTimer(60);
+    }
 }
 
 const initGame_EN = () => {
@@ -54,6 +59,12 @@ const initGame_EN = () => {
     correctWord = randomObj.word.toLocaleLowerCase(); // passing random word to correct Word
     inputField.value = "";
     inputField.setAttribute("maxlength", correctWord.length); // setting input maxlenght attr value to word length
+    // initTimer(60);
+    if (hard.checked == true) {
+        initTimer(30);
+    } else {
+        initTimer(60);
+    }
 }
 
 const checkWord = () => {
