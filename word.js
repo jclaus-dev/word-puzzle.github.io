@@ -49,44 +49,39 @@ const words_en = [
     },
     {
         word: "Belt",
-        hint: "Bird is a house"
+        hint: "Wears on the pants"
     },
     {
         word: "Desk",
-        hint: "Bird is a house"
+        hint: "Stands in each apartment several times"
     },
     {
         word: "Thin",
-        hint: "Bird is a house"
+        hint: "The opposite of fat"
     },
     {
         word: "Leaves",
-        hint: "Bird is a house"
+        hint: "Hangs from trees"
     },
-    
     {
         word: "Skull",
-        hint: "Bird is a house"
+        hint: "Consists of bone"
     },
-    
     {
         word: "Aspirin",
-        hint: "Bird is a house"
+        hint: "Is a mild nonnarcotic analgesic"
     },
-    
     {
-        word: "Device",
-        hint: "Bird is a house"
+        word: "Forest",
+        hint: "Animals live there"
     },
-    
     {
         word: "Fiddle",
-        hint: "Bird is a house"
+        hint: "A musical instrument"
     },
-    
     {
         word: "Deer",
-        hint: "Bird is a house"
+        hint: "Lives in the forest"
     },
     
     

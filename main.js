@@ -3,7 +3,7 @@
 const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
 timerText = document.querySelector(".time b"),
-inputField = document.querySelector("input"),
+inputField = document.querySelector("input[type=text]"),
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word"),
 closeBtn = document.querySelector("#close"),
@@ -59,7 +59,6 @@ const initGame_EN = () => {
     correctWord = randomObj.word.toLocaleLowerCase(); // passing random word to correct Word
     inputField.value = "";
     inputField.setAttribute("maxlength", correctWord.length); // setting input maxlenght attr value to word length
-    // initTimer(60);
     if (hard.checked == true) {
         initTimer(30);
     } else {
@@ -72,7 +71,7 @@ const checkWord = () => {
     if(!userWord) return alert(`Bitte gebe ein Wort ein!`); // if user didnt´t enter anything
 
     // if user word doesnt matched with the correct word
-    if(userWord !== correctWord) return alert(`Òops! ${userWord} ist nicht das richtige Wort`);
+    if(userWord !== correctWord) return alert(`Oops! ${userWord} ist nicht das richtige Wort`);
     
     // if above two if conditions are failed then show congrats alert because user word is correct
     alert(`Du hast es geschafft! ${userWord.toUpperCase()} ist das richtige Wort`);

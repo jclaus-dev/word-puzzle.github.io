@@ -31,7 +31,6 @@ document.querySelector(".difficulty-checkbox > .medium-checkbox").addEventListen
         hard.checked = false;
     } 
     document.querySelector(".details > p:first-of-type").remove(); 
-    // initTimer(60);
 })
 
 document.querySelector(".difficulty-checkbox > .hard-checkbox").addEventListener("click", function() {
@@ -41,7 +40,6 @@ document.querySelector(".difficulty-checkbox > .hard-checkbox").addEventListener
     } 
     document.querySelector(".details > p:first-of-type").remove(); 
     document.querySelector(".details > p:last-of-type > span > b").textContent = "30";
-    // initTimer(30);
 })
 
 
@@ -62,7 +60,6 @@ document.querySelector(".en").addEventListener("click", function() {
         startBtn.addEventListener("click", initGame_EN);
         refreshBtn.addEventListener("click", initGame_EN);
         checkBtn.addEventListener("click", checkWord);
-        // initTimer(60);
     } 
 })
 
