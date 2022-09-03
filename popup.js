@@ -23,7 +23,7 @@ document.querySelector(".difficulty-checkbox > .easy-checkbox").addEventListener
         medium.checked = false;
         hard.checked = false;
     } 
-})
+});
 
 document.querySelector(".difficulty-checkbox > .medium-checkbox").addEventListener("click", function() {
     if (medium.checked = true) {
@@ -31,7 +31,7 @@ document.querySelector(".difficulty-checkbox > .medium-checkbox").addEventListen
         hard.checked = false;
     } 
     document.querySelector(".details > p:first-of-type").remove(); 
-})
+});
 
 document.querySelector(".difficulty-checkbox > .hard-checkbox").addEventListener("click", function() {
     if (hard.checked = true) {
@@ -40,7 +40,7 @@ document.querySelector(".difficulty-checkbox > .hard-checkbox").addEventListener
     } 
     document.querySelector(".details > p:first-of-type").remove(); 
     document.querySelector(".details > p:last-of-type > span > b").textContent = "30";
-})
+});
 
 
 // ##### Language Buttons #####
@@ -51,7 +51,7 @@ document.querySelector(".de").addEventListener("click", function() {
     if (language_german.checked = true) {
         language_english.checked = false;  
     } 
-})
+});
 
 document.querySelector(".en").addEventListener("click", function() {
     if (language_english.checked = true) {
@@ -61,7 +61,9 @@ document.querySelector(".en").addEventListener("click", function() {
         refreshBtn.addEventListener("click", initGame_EN);
         checkBtn.addEventListener("click", checkWord);
     } 
-})
+});
+
+// ##### Fehlerbox #####
 
 
 

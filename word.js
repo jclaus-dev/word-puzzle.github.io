@@ -40,6 +40,127 @@ const words_de = [
         word: "Gitter",
         hint: "Lückenlose und überlappungsfreie Partition eines Raume"
     },
+    {
+        word: "Blume",
+        hint: "Eine schöne Pflanze"
+    },
+    {
+        word: "Laser",
+        hint: "Ein sehr heller Strahl aus Licht"
+    },
+    {
+        word: "Symbol",
+        hint: "Ein Zeichen mit einer Bedeutung"
+    },
+    {
+        word: "Nase",
+        hint: "Jeder Mensch hat eine"
+    },
+    {
+        word: "Eimer",
+        hint: "Ein Behälter mit dem wir verschiedene Sachen transportieren können"
+    },
+    {
+        word: "Loch",
+        hint: "Tief im Boden"
+    },
+    {
+        word: "Organe",
+        hint: "Ein Teil des Körpers"
+    },
+    {
+        word: "Politik",
+        hint: "Der größte Joke der Welt"
+    },
+    {
+        word: "Likör",
+        hint: "Ein Getränk"
+    },
+    {
+        word: "Sieb",
+        hint: "Ein Gitter mit einem Rahmen"
+    },
+    {
+        word: "Treppe",
+        hint: "Ein Weg nach oben"
+    },
+    {
+        word: "Vater",
+        hint: "Ein Mann der Kinder hat"
+    },
+    {
+        word: "Turban",
+        hint: "Ein Kopfbedeckung"
+    },
+    {
+        word: "Predigt",
+        hint: "Religiöse Ansprache"
+    },
+    {
+        word: "Nadel",
+        hint: "Ein kleines Werkzeug"
+    },
+    {
+        word: "Haare",
+        hint: "Ein Teil des Körpers"
+    },
+    {
+        word: "Japan",
+        hint: "Ein Land"
+    },
+    {
+        word: "Bikini",
+        hint: "Ein Kleidungsstück"
+    },
+    {
+        word: "Raum",
+        hint: "Ein Teil eines Gebäudes"
+    },
+    {
+        word: "Nähen",
+        hint: "Ein Handwerk mit einer Nadel"
+    },
+
+    {
+        word: "Nuss",
+        hint: "Rundliche Frucht mit harter, holziger Schale"
+    },
+    {
+        word: "Urteil",
+        hint: "Richterliche Entscheidung"
+    },
+    {
+        word: "Salz",
+        hint: "Damit würzen wir unsere Speisen"
+    },
+    {
+        word: "Lehm",
+        hint: "Besteht aus Ton und Sand"
+    },
+    {
+        word: "Reis",
+        hint: "Lebensmittel aus Asien"
+    },
+    {
+        word: "Haut",
+        hint: "Die äußere Schicht des Körpers"
+    },
+    {
+        word: "Salat",
+        hint: "Eine Speise aus Obst/Gemüse"
+    },
+    {
+        word: "Salbe",
+        hint: "Ein Medikament"
+    },
+    {
+        word: "Gast",
+        hint: "Ein anderes Wort für Besucher"
+    },
+    {
+        word: "Riese",
+        hint: "Ein sehr großer Mensch"
+    },
 ]
 
 const words_en = [

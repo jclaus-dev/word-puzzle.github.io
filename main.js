@@ -77,13 +77,12 @@ const checkWord = () => {
     alert(`Du hast es geschafft! ${userWord.toUpperCase()} ist das richtige Wort`);
 }
 
+document.querySelector(".container > .wort-container > .bx").addEventListener("click", function() {
+    location.reload();
+});
+
 // Default Settings
 closeBtn.addEventListener("click", initGame);
 startBtn.addEventListener("click", initGame);
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
-
-
-
-
-
